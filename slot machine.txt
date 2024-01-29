@@ -1,0 +1,26 @@
+
+
+
+// Start The Game ( start the loop )
+// Deposit the money ( 1000 )
+// get the bet amount ( deduct from the balance money ) ( balance = 1000 - 300 = 700 )
+// check if user has sufficient balance if not break the loop
+// get the no of lines to bet on ( 1 , 2 , 3) X betAmount = ( 300 , 600 , 900)
+// spin the wheel
+// user win balance is increased with winnings
+// winnings = betAmount * symbolValues (A: 5,B: 4,C: 3,D: 2,)
+// ( balance = balance + winnings) 700 + (300,600,900) = {
+// A: (1500 + 700, 3000 + 700, 4500 + 700) = (2200, 3700, 5200)
+// B: (1200 + 700, 2400 + 700, 3500 + 700) = (1900, 3100, 4200)
+// C: (900 + 700, 1800 + 700, 2100 + 700) = (1600, 2500, 2800)
+// D: (600 + 700, 1200 + 700, 1800 + 700) = (1300, 1900, 2500)
+// }
+// user lose the bet amount 
+// balance = 700
+// Ask user to playAgain
+// user says yes ( don't break the loop)\
+// user says no ( break the loop)
+
+
+
+
